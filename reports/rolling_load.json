@@ -1,0 +1,7 @@
+{
+  "generated_at_utc": "2026-04-03T05:11:00.187043+00:00",
+  "window_hours": 168,
+  "rolling_mean_latest_mw": 26262.059523809523,
+  "rolling_std_latest_mw": 4291.169552484874,
+  "rolling_mean_series_mean_mw": 28710.74347023963
+}

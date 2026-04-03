@@ -1,0 +1,21 @@
+{
+  "generated_at_utc": "2026-04-03T05:11:00.100776+00:00",
+  "missing_pct_by_column": {
+    "generation biomass": 0.0,
+    "forecast solar day ahead": 0.0,
+    "snow_3h": 0.0,
+    "rain_1h": 0.0,
+    "wind_speed": 0.0,
+    "humidity": 0.0,
+    "pressure": 0.0,
+    "temp": 0.0,
+    "price actual": 0.0,
+    "price day ahead": 0.0,
+    "total load actual": 0.0,
+    "total load forecast": 0.0,
+    "forecast wind onshore day ahead": 0.0,
+    "generation wind onshore": 0.0,
+    "generation fossil brown coal/lignite": 0.0
+  },
+  "duplicate_index_rows": 0
+}

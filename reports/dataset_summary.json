@@ -1,0 +1,41 @@
+{
+  "generated_at_utc": "2026-04-03T05:11:00.098106+00:00",
+  "row_count": 35064,
+  "time_start_utc": "2014-12-31T23:00:00+00:00",
+  "time_end_utc": "2018-12-31T22:00:00+00:00",
+  "columns": [
+    "generation biomass",
+    "generation fossil brown coal/lignite",
+    "generation fossil gas",
+    "generation fossil hard coal",
+    "generation fossil oil",
+    "generation hydro pumped storage consumption",
+    "generation hydro run-of-river and poundage",
+    "generation hydro water reservoir",
+    "generation nuclear",
+    "generation other",
+    "generation other renewable",
+    "generation solar",
+    "generation waste",
+    "generation wind onshore",
+    "forecast solar day ahead",
+    "forecast wind onshore day ahead",
+    "total load forecast",
+    "total load actual",
+    "price day ahead",
+    "price actual",
+    "temp",
+    "pressure",
+    "humidity",
+    "wind_speed",
+    "rain_1h",
+    "snow_3h",
+    "clouds_all"
+  ],
+  "total_load_actual": {
+    "mean_mw": 28698.281385466576,
+    "std_mw": 4575.828853961431,
+    "min_mw": 18041.0,
+    "max_mw": 41015.0
+  }
+}

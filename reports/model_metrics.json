@@ -1,0 +1,44 @@
+{
+  "generated_at_utc": "2026-04-03T04:57:11.630883+00:00",
+  "split": "chronological_last_fraction",
+  "test_fraction": 0.15,
+  "note": "Quick sklearn baselines on numeric exogenous + generation columns; full study uses notebooks (Prophet, SARIMAX, XGBoost, search CV).",
+  "results": [
+    {
+      "model": "linear_regression",
+      "rmse_mw": 1380.48,
+      "mae_mw": 1099.14,
+      "test_rows": 5260,
+      "feature_count": 23
+    },
+    {
+      "model": "random_forest_quick",
+      "rmse_mw": 1726.4,
+      "mae_mw": 1352.0,
+      "test_rows": 5260,
+      "feature_count": 23
+    }
+  ],
+  "notebook_models": [
+    {
+      "model": "year_over_year_baseline",
+      "rmse_mw": null,
+      "note": "See Modeling.ipynb \u2014 repeat prior-year load."
+    },
+    {
+      "model": "prophet_exogenous",
+      "rmse_mw": null,
+      "note": "See Modeling.ipynb \u2014 primary long-horizon candidate."
+    },
+    {
+      "model": "xgboost",
+      "rmse_mw": null,
+      "note": "See Modeling.ipynb \u2014 tuned gradient boosting."
+    },
+    {
+      "model": "sarimax_fourier",
+      "rmse_mw": null,
+      "note": "See Modeling.ipynb \u2014 shorter horizons with Fourier exog."
+    }
+  ]
+}
