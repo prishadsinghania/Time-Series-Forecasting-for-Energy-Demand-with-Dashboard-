@@ -1,4 +1,4 @@
-# Spain hourly electricity — demand forecasting project
+# Hourly electricity — demand forecasting project
 
 ## Data (`data/combined_avg.csv`)
 
